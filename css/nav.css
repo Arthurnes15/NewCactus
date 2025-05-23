@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 12px;
+  list-style: none;
+  color: rgb(138, 137, 137);
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+nav .login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+nav .login span {
+  cursor: pointer;
+}
+
+nav .login .padlock {
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+}

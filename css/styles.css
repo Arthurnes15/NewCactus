@@ -1,0 +1,170 @@
+@import url(./nav.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Days";
+  src: url(../font/Days\ Sans\ Black.otf);
+}
+
+body {
+  background-color: #c0cd99;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  width: 60vw;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    32deg,
+    rgba(39, 41, 45, 1) 73%,
+    rgba(112, 135, 75, 1) 104%
+  );
+  border: 10px solid #e2e6c2;
+  border-radius: 50px;
+  color: white;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+main .main-cactus img {
+  width: 30vw;
+}
+
+main .informations {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+main .informations .title {
+  font-family: "Days";
+  font-size: 2.8vw;
+  cursor: default;
+}
+
+h1 .plants-text {
+  color: #f4b8f1;
+  text-decoration: underline;
+}
+
+h1 .plants-text:hover {
+  cursor: pointer;
+}
+
+main .informations .description {
+  font-size: 13px;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttons button {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  padding: 2px 15px 2px 4px;
+  border-radius: 50px;
+}
+
+.buttons .arrow-right {
+  background-color: #f4b8f1;
+  padding: 10px;
+  border-radius: 100px;
+  height: 16px;
+}
+
+.buttons .details {
+  flex-shrink: 0;
+}
+
+.buttons .details a {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+footer .categories {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+footer .categories .first-row {
+  display: flex;
+  gap: 10px;
+}
+
+footer .categories .second-row {
+  display: flex;
+  gap: 10px;
+}
+
+.first-row div,
+.second-row div {
+  font-size: 10px;
+  padding: 8px 25px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first-row div:hover,
+.second-row div:hover {
+  color: white;
+  border-color: white;
+  transition: 0.5s;
+}
+
+footer .cactus {
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.cactus div {
+  max-width: 15vw;
+  min-width: 130px;
+  height: 133px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #606b51;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  background: rgb(49, 55, 48);
+  background: linear-gradient(
+    125deg,
+    rgba(49, 55, 48, 1) 0%,
+    rgba(68, 81, 56, 1) 35%,
+    rgba(81, 95, 63, 1) 100%
+  );
+}
