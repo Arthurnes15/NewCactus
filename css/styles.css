@@ -23,7 +23,7 @@ article {
     rgba(39, 41, 45, 1) 73%,
     rgba(112, 135, 75, 1) 104%
   );
-  border: 10px solid #e2e6c2;
+  border: 6px solid #e2e6c2;
   border-radius: 50px;
   color: white;
   overflow: hidden;
